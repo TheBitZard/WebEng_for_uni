@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <script src="weatherapp.js"></script>
+    <title>Weather-app</title>
+</head>
+<body>
+<div class="card">
+    <h3>Hi! Check the current weather here!</h3>
+    <div class="search">
+        <input type="text" id="input" placeholder="enter city or town name" spellcheck="false">
+        <button id="button" onclick="checkWeather()">check weather</button>
+    </div>
+    <div class="weather">
+        <div id="country"><b>enter a city or location above</b></div>
+        <div id="city"></div>
+        <div id="temp"></div>
+        <div id="humidity"></div>
+        <div id="pressure"></div>
+        <div id="cloud-percent"></div>
+        <div id="cloud-description"></div>
+    </div>
+</div>
+</body>
+</html>
